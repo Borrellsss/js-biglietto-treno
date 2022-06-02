@@ -22,6 +22,6 @@ body {
 }
 
 #ticket-price:hover {
-    text-shadow: 0 0 3px #a1a4a9;
+    text-decoration: underline;
     cursor: pointer;
 }
