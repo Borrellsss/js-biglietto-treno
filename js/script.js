@@ -25,11 +25,11 @@ let userFinalPrice;
 // *SIDE BY SIDE*
 // if (userAge < 18) {
 //     under18Discount = userBaseTicket * 0.2;
-//     userFinalPrice = (userBaseTicket - under18Discount).toFixed(2)
+//     userFinalPrice = (userBaseTicket - under18Discount).toFixed(2);
 //     document.getElementById("ticket-price").innerHTML = `This is your price! ${userFinalPrice} €`;
 // } else if (userAge > 65) {
 //     over65Discount = userBaseTicket * 0.4;
-//     userFinalPrice = (userBaseTicket - over65Discount).toFixed(2)
+//     userFinalPrice = (userBaseTicket - over65Discount).toFixed(2);
 //     document.getElementById("ticket-price").innerHTML = `This is your price! ${userFinalPrice} €`;
 // } else {
 //     document.getElementById("ticket-price").innerHTML = `This is your price! ${userBaseTicket} €`;
@@ -43,5 +43,5 @@ if (userAge < 18) {
     userFinalPrice = (userBaseTicket * 0.6).toFixed(2)
     document.getElementById("ticket-price").innerHTML = `This is your price! ${userFinalPrice} €`;
 } else {
-    document.getElementById("ticket-price").innerHTML = `This is your price! ${userBaseTicket} €`;
+    document.getElementById("ticket-price").innerHTML = `This is your price! ${userBaseTicket.toFixed(2)} €`;
 }
